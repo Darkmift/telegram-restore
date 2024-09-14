@@ -1,0 +1,43 @@
+# Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json
+.env
+.DS_Store
+
+# Logs
+logs
+*.log
+logs/**/*.log
+
+# OS generated files
+Thumbs.db
+.DS_Store
+
+# Media folder (if you don't want to track media files)
+media/
+
+# TypeScript compiled files
+dist/
+out/
+*.js
+*.js.map
+*.d.ts
+
+# IDE related files
+.vscode/
+.idea/
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# Build and cache directories
+.cache/
+.build/
+
+storage/Telegram/*
+storage/Whatsapp/*

@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",               // JavaScript version output
+    "module": "commonjs",             // CommonJS for Node.js
+    "strict": true,                   // Enables strict type checking
+    "esModuleInterop": true,          // Enables compatibility with ES6 modules
+    "skipLibCheck": true,             // Skips type checking of declaration files
+    "outDir": "./dist",               // Output directory for compiled JS
+    "rootDir": "./src",               // Root directory of TypeScript files
+    "resolveJsonModule": true,        // Allows importing JSON files
+    "noImplicitAny": true,            // Disallows implicit `any` types
+    "sourceMap": true                 // Generates source maps for debugging
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "dist"]
+}

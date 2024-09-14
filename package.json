@@ -1,0 +1,33 @@
+{
+  "name": "telegram-to-whatsapp-converter",
+  "version": "1.0.0",
+  "description": "A Node.js CLI that converts Telegram chat exports into WhatsApp importable format.",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "tsc && node dist/index.js",
+    "build": "tsc",
+    "dev": "ts-node src/index.ts",
+    "test": "npx ts-node src/index.ts convert storage/Telegram/ChatExport_2024-09-14"
+  },
+  "bin": {
+    "telegram-to-whatsapp-converter": "./dist/index.js"
+  },
+  "keywords": [],
+  "author": "Your Name",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.12",
+    "commander": "^10.0.0",
+    "fs-extra": "^11.2.0",
+    "inquirer": "^10.2.2",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "@types/cheerio": "^0.22.31",
+    "@types/fs-extra": "^11.0.4",
+    "@types/inquirer": "^9.0.7",
+    "@types/node": "^20.5.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  }
+}
